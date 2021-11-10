@@ -130,51 +130,11 @@ nav li a:focus {
 	background-color: white;
 }
 
-/* --- banner --- */
-.banner {
-	background-color: white;
-	background-size: cover;
-}
-
 /* ------------------------------------
 				Main
 --------------------------------------- */
-main {
-	background-color: #9497D425;
-	margin: 2rem auto;
-}
-.mood-type {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 1em;
-	padding: 1rem;
-}
-.mood {
-	background-color: white;
-	color: #11165C;
-	text-align: center;
-	margin: 0 10%;
-}
-.mooda {
-	background: #9497D425 url(../images/mooda.jpg) no-repeat center center;
-	padding: 150px 0;
-	background-size: cover;
-}
-.moodb {
-	background: #9497D425 url(../images/moodb.jpg) no-repeat center center;
-	padding: 150px 0;
-	background-size: cover;
-}
-.moodc {
-	background: #9497D425 url(../images/moodc.jpg) no-repeat center center;
-	padding: 150px 0;
-	background-size: cover;
-}
-.moodd {
-	background: #9497D425 url(../images/moodd.jpg) no-repeat center center;
-	padding: 150px 0;
-	background-size: cover;
-}
+
+/* --- footer */
 footer p {
 	background-color: #11165C;
 	margin: 0 auto;
@@ -182,4 +142,3 @@ footer p {
 	text-align: center;
 	color: white;
 }
-
