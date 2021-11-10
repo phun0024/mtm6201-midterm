@@ -101,7 +101,7 @@ nav {
 	background-color: #11165C;
 	font-weight: bold;
 	text-transform: uppercase;
-    font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 nav li {
@@ -115,16 +115,17 @@ nav a,
 nav a:link,
 nav a:visited {
 	text-decoration: none;
-	padding: 1em 0;
 	display: block;
 	color: white;
+	padding: 8px 0 0;
 }
 
 nav li .current,
 nav li a:hover,
 nav li a:focus {
 	color: #11165C;
-	background-color: white;
+	background-color: white;	
+    padding: 70px 50px;
 }
 
 /* ------------------------------------
@@ -153,4 +154,63 @@ footer p {
 	padding: 1rem;
 	text-align: center;
 	color: white;
+}
+/* ------------------------------------
+---------------------------------------
+			Desktop Style
+---------------------------------------
+--------------------------------------- */
+@media screen and (min-width: 760px) {
+	html {
+		font-size: 18px;
+	}
+	/* ------------------------------------
+				Header
+	--------------------------------------- */
+	/* --- navigation --- */
+	ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin: 0 auto;
+		align-items: center;
+		max-width: 1200px;
+		padding: 0;
+	}
+	ul li {
+		display: block;
+		align-items: center;
+	}
+	
+	nav li a:hover,
+	nav li a:focus {
+		padding: 70px 50px;		
+	}
+	/* --- logo --- */
+	.logo {
+		width: 100%;
+	}
+	nav li:first-child {
+		width: 20%;
+		padding: 0;
+	}
+	nav li:first-child > a:hover {
+		padding: 8px 0 0;
+	}
+    /* --- main --- */
+    main div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    p {
+        text-align: left;
+        align-self: center;
+        font-size: 14px;
+        line-height: 2;
+    }
+    main > img {
+        margin: 20px auto;
+        width: 80%;
+    }
+	
 }
