@@ -117,7 +117,7 @@ nav a:visited {
 	text-decoration: none;
 	display: block;
 	color: white;
-	padding: 8px 0 0;
+	padding: 15px 0;
 }
 
 nav li .current,
@@ -140,38 +140,39 @@ main {
 	background-color: #9497D425;
 	margin: 2rem auto;
 }
-.mood-type {
+.mood {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 1rem;
+	grid-template-columns: 1fr;
+	gap: 2rem;
 	padding: 1rem;
 }
-.mood a {
-	font-weight: bold;
-	font-size: 1.3rem;
-	text-decoration: none;
-	background-color: white;
-	padding: 10px 25%;
-}
+
 .mooda {
 	background: #9497D425 url(../images/mooda.jpg) no-repeat center center;
-	padding: 150px 0;
+	padding: 300px 0 0;
 	background-size: cover;
 }
 .moodb {
 	background: #9497D425 url(../images/moodb.jpg) no-repeat center center;
-	padding: 150px 0;
+	padding: 300px 0 0;
 	background-size: cover;
 }
 .moodc {
 	background: #9497D425 url(../images/moodc.jpg) no-repeat center center;
-	padding: 150px 0;
+	padding: 300px 0 0;
 	background-size: cover;
 }
 .moodd {
 	background: #9497D425 url(../images/moodd.jpg) no-repeat center center;
-	padding: 150px 0;
+	padding: 300px 0 0;
 	background-size: cover;
+}
+.mood a {
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 2rem;
+	background-color: white;
+	padding: 0 50px;
 }
 footer p {
 	background-color: #11165C;
