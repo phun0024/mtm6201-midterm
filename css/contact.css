@@ -82,7 +82,7 @@ p {
 }
 
 .container {
-	max-width: 900px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 1em;
 }
@@ -118,6 +118,7 @@ nav a:visited {
 	display: block;
 	color: white;
 	padding: 15px 0;
+	font-size: 1.5rem;
 }
 
 nav li .current,
@@ -136,15 +137,37 @@ nav li a:focus {
 /* ------------------------------------
 				Main
 --------------------------------------- */
-main {
+.content {
 	background-color: #9497D425;
-	margin: 2rem auto;
+	color: #11165C;
+	padding: 20px;
 }
-.mood {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 1rem;
-	padding: 1rem;
+.sidebar-profile {
+	display: none;
+}
+.content p {
+	text-align: center;
+	line-height: 2rem;
+	margin: 30px auto;
+}
+/* --- form --- */
+label,
+input,
+textarea {
+	display: block;
+	width: 100%;
+}
+.form div,
+.form button {
+	margin: 10px auto;
+}
+button {
+	background-color: #11165C;
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 5px 30px;
+	border: none;
 }
 
 /* ------------------------------------
@@ -162,7 +185,7 @@ footer p {
 			Desktop Style
 ---------------------------------------
 --------------------------------------- */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 960px) {
 	html {
 		font-size: 18px;
 	}

@@ -82,7 +82,7 @@ p {
 }
 
 .container {
-	max-width: 900px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 1em;
 }
@@ -118,6 +118,7 @@ nav a:visited {
 	display: block;
 	color: white;
 	padding: 15px 0;
+	font-size: 1.5rem;
 }
 
 nav li .current,
@@ -138,13 +139,19 @@ nav li a:focus {
 --------------------------------------- */
 main {
 	background-color: #9497D425;
-	margin: 2rem auto;
 }
-.mood {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 1rem;
-	padding: 1rem;
+.profile {
+	padding: 20px;
+	margin: 20px;
+	color: #11165C;
+}
+.profile img {
+	border-radius: 50%;
+	padding: 20px;
+}
+.profile p {
+	padding: 20px;
+	text-align: center;
 }
 
 /* ------------------------------------
@@ -162,7 +169,7 @@ footer p {
 			Desktop Style
 ---------------------------------------
 --------------------------------------- */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 960px) {
 	html {
 		font-size: 18px;
 	}
@@ -208,10 +215,20 @@ footer p {
 	/* ------------------------------------
 				Main
 	--------------------------------------- */
-	.mood {
+	.profile {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
-		padding: 1rem;
+		justify-items: center;
+		align-items: center;
+	}
+	.profile img {
+		margin: 20px;
+		padding: 20px;
+		width: 80%;
+	}
+	.profile p {
+		font-size: 14px;
+		line-height: 2rem;
 	}
 }
