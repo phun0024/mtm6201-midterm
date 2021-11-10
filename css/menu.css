@@ -133,7 +133,25 @@ nav li a:focus {
 /* ------------------------------------
 				Main
 --------------------------------------- */
+main div:nth-child(odd) {
+    background-color: #9497D425;
+}
 
+main div {
+    margin: 0 0 20px;
+}
+h1, p, button {
+    text-align: center;
+    color: #11165C;
+}
+
+button {
+    font-weight: bold;
+    border: none;
+    background: none;
+    margin: 10px auto;
+    font-size: 1rem;
+}
 /* --- footer */
 footer p {
 	background-color: #11165C;

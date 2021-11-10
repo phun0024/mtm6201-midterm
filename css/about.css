@@ -133,6 +133,21 @@ nav li a:focus {
 /* ------------------------------------
 				Main
 --------------------------------------- */
+main {
+    background-color: #9497D425;
+    padding: 20px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    padding: 20px;
+}
+p {
+    color: #11165C;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
 
 /* --- footer */
 footer p {

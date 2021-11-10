@@ -74,7 +74,7 @@ img {
 h1 {
 	font-weight: bold;
 	margin: 1em 0 0.5em;
-	font-size: 2.25rem;
+	font-size: 1.5rem;
 }
 
 p {
@@ -152,7 +152,6 @@ main {
 .mood {
 	background-color: white;
 	color: #11165C;
-	font-size: 1rem;
 	text-align: center;
 	margin: 0 10%;
 }

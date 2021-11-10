@@ -133,7 +133,44 @@ nav li a:focus {
 /* ------------------------------------
 				Main
 --------------------------------------- */
+body {
+    color: #11165C;
+}
 
+main {
+    background-color: #9497D425;
+    padding: 20px 0;
+}
+p {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sidebar-profile {
+    display: none;
+}
+
+/* --- form --- */
+.form {
+    padding: 20px;
+}
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+form > div {
+    margin: 10px auto;
+}
+button {
+    color: white;
+    background-color: #11165C;
+    font-weight: 900;
+    padding: 5px 20px;
+    margin: 5px auto;
+    border: 1px solid grey;
+}
 /* --- footer */
 footer p {
 	background-color: #11165C;
