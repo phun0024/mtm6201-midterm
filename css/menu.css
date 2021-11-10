@@ -101,16 +101,13 @@ nav {
 	background-color: #11165C;
 	font-weight: bold;
 	text-transform: uppercase;
+    font-size: 1.2rem;
 }
 
 nav li {
 	box-sizing: border-box;
 	text-align: center;
 	margin: 0 auto;
-}
-
-nav li:first-child {
-	text-align: left;
 }
 
 	/* LOVE HATE */
@@ -152,6 +149,7 @@ button {
     margin: 10px auto;
     font-size: 1rem;
 }
+
 /* --- footer */
 footer p {
 	background-color: #11165C;
