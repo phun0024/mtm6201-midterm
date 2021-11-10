@@ -157,6 +157,7 @@ input,
 textarea {
     display: block;
     width: 100%;
+	border: 1px solid #11165C;
 }
 form > div {
     margin: 10px auto;
@@ -173,7 +174,7 @@ button {
 footer p {
 	background-color: #11165C;
 	margin: 0 auto;
-	padding: 1rem;
+	padding: 2rem;
 	text-align: center;
 	color: white;
 }
@@ -184,7 +185,7 @@ footer p {
 --------------------------------------- */
 @media screen and (min-width: 760px) {
 	html {
-		font-size: 18px;
+		font-size: 14px;
 	}
 	/* ------------------------------------
 				Header
@@ -219,8 +220,27 @@ footer p {
 	nav li:first-child > a:hover {
 		padding: 8px 0 0;
 	}
+	/* --- main --- */
+	.content p {
+		line-height: 2rem;
+	}
 	.sidebar-profile {
         display: inline-block;
     }
-    
+    .content {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		gap: 10px;
+		padding: 2%;
+		margin: 0 5%;
+	}
+	.sidebar-profile {
+		border: 1px solid #11165C;
+		background-color: white;
+	}
+	.sidebar-profile img,
+	.sidebar-profile p {
+		padding: 10%;
+	}
+	
 }
