@@ -82,7 +82,7 @@ p {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 1em;
 }
@@ -94,7 +94,7 @@ p {
 --------------------------------------- */
 /* --- navigation --- */
 .logo {
-	width: 20%;
+	width: 30%;
 }
 
 nav {
@@ -142,38 +142,14 @@ main {
 }
 .mood {
 	display: grid;
-	grid-template-columns: 1fr;
-	gap: 2rem;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
 	padding: 1rem;
 }
 
-.mooda {
-	background: #9497D425 url(../images/mooda.jpg) no-repeat center center;
-	padding: 300px 0 0;
-	background-size: cover;
-}
-.moodb {
-	background: #9497D425 url(../images/moodb.jpg) no-repeat center center;
-	padding: 300px 0 0;
-	background-size: cover;
-}
-.moodc {
-	background: #9497D425 url(../images/moodc.jpg) no-repeat center center;
-	padding: 300px 0 0;
-	background-size: cover;
-}
-.moodd {
-	background: #9497D425 url(../images/moodd.jpg) no-repeat center center;
-	padding: 300px 0 0;
-	background-size: cover;
-}
-.mood a {
-	text-decoration: none;
-	font-weight: 900;
-	font-size: 2rem;
-	background-color: white;
-	padding: 0 50px;
-}
+/* ------------------------------------
+				Footer
+--------------------------------------- */
 footer p {
 	background-color: #11165C;
 	margin: 0 auto;
@@ -190,6 +166,7 @@ footer p {
 	html {
 		font-size: 18px;
 	}
+
 	/* ------------------------------------
 				Header
 	--------------------------------------- */
@@ -201,7 +178,7 @@ footer p {
 		margin: 0 auto;
 		align-items: center;
 		max-width: 1200px;
-		padding: 0;
+		padding: 0 20px;
 	}
 	ul li {
 		display: block;
@@ -214,26 +191,19 @@ footer p {
 	}
 	/* --- logo --- */
 	.logo {
-		width: 100%;
+		width: 80%;
 	}
 	nav li:first-child {
 		width: 20%;
 		padding: 0;
 	}
 	nav li:first-child > a:hover {
-		padding: 8px 0 0;
+		padding: 20px;
 	}
-	.mood-type {
+	.mood {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		gap: 1rem;
 		padding: 1rem;
-	}
-	.mood a {
-		font-weight: bold;
-		font-size: 1.3rem;
-		text-decoration: none;
-		background-color: white;
-		padding: 10px 15%;
 	}
 }
