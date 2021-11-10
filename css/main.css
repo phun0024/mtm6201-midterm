@@ -49,6 +49,51 @@ table {
 /* ------------------------------------------
                 Custom Style
 --------------------------------------------- */
+html {
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	box-sizing: border-box;
+}
 
+body {
+	font-family: 'Saira', sans-serif;
+	line-height: 1.5;
+}
 
+img {
+	width: 100%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	line-height: inherit;
+}
+
+h1 {
+	font-weight: bold;
+	margin: 1em 0 0.5em;
+	font-size: 2.25rem;
+}
+
+p {
+	margin: 1em 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+/* color codes: #11165C #9497D4 #9497D425 */
+
+/* ------------------------------------
+				Header
+--------------------------------------- */
 /* --- navigation --- */
+.logo {
+	width: 20%;
+}
+
