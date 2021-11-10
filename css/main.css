@@ -97,3 +97,56 @@ p {
 	width: 20%;
 }
 
+nav {
+	background-color: #11165C;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav li {
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0 auto;
+}
+
+nav li:first-child {
+	text-align: left;
+}
+
+	/* LOVE HATE */
+nav a,
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+	padding: 1em 0;
+	display: block;
+	color: white;
+}
+
+nav .current,
+nav a:hover,
+nav a:focus {
+	color: #11165C;
+	background-color: white;
+}
+
+/* --- banner --- */
+.banner {
+	background-color: white;
+	background-size: cover;
+}
+
+/* ------------------------------------
+				Main
+--------------------------------------- */
+main {
+	background-color: #9497D425;
+}
+.mood-type {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	align-items: stretch;
+	gap: 1em;
+	padding: 1em;
+}
