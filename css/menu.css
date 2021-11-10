@@ -74,7 +74,7 @@ img {
 h1 {
 	font-weight: bold;
 	margin: 1em 0 0.5em;
-	font-size: 2.25rem;
+	font-size: 1.5rem;
 }
 
 p {
@@ -82,7 +82,7 @@ p {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 1em;
 }
@@ -94,7 +94,7 @@ p {
 --------------------------------------- */
 /* --- navigation --- */
 .logo {
-	width: 20%;
+	width: 30%;
 }
 
 nav {
@@ -117,41 +117,39 @@ nav a:visited {
 	text-decoration: none;
 	display: block;
 	color: white;
-	padding: 8px 0 0;
+	padding: 15px 0;
 }
 
 nav li .current,
 nav li a:hover,
 nav li a:focus {
 	color: #11165C;
+	background-color: white;		
+}
+
+/* --- banner --- */
+.banner {
 	background-color: white;
-    padding: 70px 50px;		
+	background-size: cover;
 }
 
 /* ------------------------------------
 				Main
 --------------------------------------- */
-main div:nth-child(odd) {
-    background-color: #9497D425;
+main {
+	background-color: #9497D425;
+	margin: 2rem auto;
+}
+.mood {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+	padding: 1rem;
 }
 
-main div {
-    margin: 0 0 20px;
-}
-h1, p, button {
-    text-align: center;
-    color: #11165C;
-}
-
-button {
-    font-weight: bold;
-    border: none;
-    background: none;
-    margin: 10px auto;
-    font-size: 1rem;
-}
-
-/* --- footer */
+/* ------------------------------------
+				Footer
+--------------------------------------- */
 footer p {
 	background-color: #11165C;
 	margin: 0 auto;
@@ -168,6 +166,7 @@ footer p {
 	html {
 		font-size: 18px;
 	}
+
 	/* ------------------------------------
 				Header
 	--------------------------------------- */
@@ -179,7 +178,7 @@ footer p {
 		margin: 0 auto;
 		align-items: center;
 		max-width: 1200px;
-		padding: 0;
+		padding: 0 20px;
 	}
 	ul li {
 		display: block;
@@ -190,16 +189,29 @@ footer p {
 	nav li a:focus {
 		padding: 70px 50px;		
 	}
+
+	nav li .current {
+		padding: 70px 50px;
+	}
 	/* --- logo --- */
 	.logo {
-		width: 100%;
+		width: 80%;
 	}
 	nav li:first-child {
 		width: 20%;
 		padding: 0;
 	}
 	nav li:first-child > a:hover {
-		padding: 8px 0 0;
+		padding: 20px;
 	}
 	
+	/* ------------------------------------
+				Main
+	--------------------------------------- */
+	.mood {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+		padding: 1rem;
+	}
 }

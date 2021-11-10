@@ -200,6 +200,10 @@ footer p {
 	nav li:first-child > a:hover {
 		padding: 20px;
 	}
+	
+	/* ------------------------------------
+				Main
+	--------------------------------------- */
 	.mood {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
