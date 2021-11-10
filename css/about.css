@@ -141,13 +141,12 @@ main {
 	background-color: #9497D425;
 }
 .profile {
-	padding: 20px;
-	margin: 20px;
+	padding: 40px;
 	color: #11165C;
 }
 .profile img {
 	border-radius: 50%;
-	padding: 20px;
+	padding: 50px;
 }
 .profile p {
 	padding: 20px;

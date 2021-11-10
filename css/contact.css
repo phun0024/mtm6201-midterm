@@ -149,6 +149,7 @@ nav li a:focus {
 	text-align: center;
 	line-height: 2rem;
 	margin: 30px auto;
+	font-size: 16px;
 }
 /* --- form --- */
 label,
@@ -156,6 +157,10 @@ input,
 textarea {
 	display: block;
 	width: 100%;
+}
+input,
+textarea {
+	border: 0.5px solid #11165C;
 }
 .form div,
 .form button {
@@ -231,10 +236,23 @@ footer p {
 	/* ------------------------------------
 				Main
 	--------------------------------------- */
-	.mood {
+	.sidebar-profile {
+		display: block;
+	}
+	.content {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 1rem;
-		padding: 1rem;
+		grid-template-columns: 2fr 1fr;
+		gap: 20px;
+	}
+	.form-and-intro {
+		margin: 20px;
+	}
+	.sidebar-profile {
+		border: 3px solid #11165C;
+		padding: 20px;
+		background-color: white;
+	}
+	.sidebar-profile p {
+		font-size: 18px;
 	}
 }

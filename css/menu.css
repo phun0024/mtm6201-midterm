@@ -139,15 +139,34 @@ nav li a:focus {
 --------------------------------------- */
 main {
 	background-color: #9497D425;
-	margin: 2rem auto;
+	color: #11165C;
 }
 .mood {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 1rem;
-	padding: 1rem;
+	padding: 40px;
 }
-
+.mood h1 {
+	background-color: white;
+	color: #11165C;
+	text-align: center;
+	margin: -10px 0;
+	padding: 10px;
+}
+.mood p {
+	margin: 40px auto 20px;
+	text-align: center;
+	line-height: 2rem;
+	padding: 0 30px;
+}
+.mood button {
+	color: #11165C;
+	background: none;
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 20px auto 30px;
+	display: block;
+}
+	
 /* ------------------------------------
 				Footer
 --------------------------------------- */
@@ -209,10 +228,44 @@ footer p {
 	/* ------------------------------------
 				Main
 	--------------------------------------- */
-	.mood {
+	.mooda,
+	.moodb,
+	.moodc,
+	.moodd {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 1rem;
-		padding: 1rem;
+		grid-template-columns: 1fr 2fr;
+		gap: 20px;
+		margin: 40px 20px;
+		align-items: center;
+		justify-items: center;
 	}
+	.mood-text h1,
+	.mood-text p {
+		background: none;
+		text-align: left;
+		margin: 0 40px;
+		padding: 0;
+	}
+	.mood-text p {
+		font-size: 12px;
+		line-height: 2;
+		margin: 10px 40px;
+	}
+	.mood button {
+		margin: 10px 40px;
+		padding: 0;
+		font-size: 16px;
+	}
+	.mood div:nth-child(odd) {
+		background-color: #9497D425;
+	}
+	main {
+		background-color: white;
+	}
+	.mood img {
+		width: 100%;
+	}
+
+
+	
 }
