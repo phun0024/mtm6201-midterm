@@ -152,6 +152,7 @@ main {
 .mood {
 	background-color: white;
 	color: #11165C;
+	font-size: 1rem;
 	text-align: center;
 	margin: 0 10%;
 }
