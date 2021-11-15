@@ -140,7 +140,7 @@ nav li a:focus {
 .content {
 	background-color: #9497D425;
 	color: #11165C;
-	padding: 20px;
+	padding: 40px 20px;
 }
 .sidebar-profile {
 	display: none;
